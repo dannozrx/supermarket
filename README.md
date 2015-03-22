@@ -8,15 +8,17 @@ The SupermarketApp, in main/java/com/jexc/supermarket is an executable that is a
 
 ## Build ##
 To build the jar from the project root use the command:
-mvn clean compile package
+mvn clean compile package.
+
+To generate the project javadoc from the project root use the command: mvn javadoc:javadoc.
 
 ## Execution ##
 To run the preconfigured exercise from the project root for the product list of "ABBACBBAB", use the command: java -jar target/supermarket.jar
 
-## Calculators ##
+## Calculator Strategies ##
 The Supermarket class must be provided with a Map of the product type (single character, case sensitive) to CalculatorStrategy instance.
 
-This project contains two different calculators strategies currently implemented:
+This project contains two different calculator strategies that are currently implemented:
 
 ### BasicCalculatorStrategy ###
    
@@ -28,6 +30,5 @@ This project contains two different calculators strategies currently implemented
 
 ### Other Calculator Strategies ###
 
-   New types of calculator strategies may be easily defined and used by implementing the CalculatorStrategy interface.
+   New types of calculator strategies may be easily defined and used by implementing the CalculatorStrategy interface. Any new calculator strategies may extend the abstract CalculatorStrategyBase if they wish to do so, but there is no requirement to do so.
    
-
