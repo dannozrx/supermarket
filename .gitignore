@@ -3,6 +3,12 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# Folders and Files to Skip #
+/target
+/.settings
+.classpath
+.project
+
 # Package Files #
 *.jar
 *.war
