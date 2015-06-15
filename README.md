@@ -6,21 +6,21 @@ calculator for the product type. Each product type is a single character (case s
 
 The SupermarketApp, in main/java/com/jexc/supermarket is an executable that is an example of how the Supermarket class is instantiated and used.
 
-## Build ##
+## Build New ##
 To build the jar from the project root use the command:
 mvn clean compile package.
 
 To generate the project javadoc from the project root use the command: mvn javadoc:javadoc.
 
-## Execution ##
+## Execution New ##
 To run the preconfigured exercise from the project root for the product list of "ABBACBBAB", use the command: java -jar target/supermarket.jar
 
-## Calculator Strategies ##
+## Calculator Strategies New ##
 The Supermarket class must be provided with a Map of the product type (single character, case sensitive) to CalculatorStrategy instance.
 
 This project contains two different calculator strategies that are currently implemented:
 
-### BasicCalculatorStrategy ###
+### BasicCalculatorStrategy New ###
    
    This calculator strategy performs a straight forward computation of the item price times the number of items specified.
  
