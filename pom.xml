@@ -9,12 +9,14 @@
 
   <name>supermarket</name>
   <url>http://maven.apache.org</url>
-
+  
+  <!-- This is the properties section -->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<junit.version>4.12</junit.version>
   </properties>
 
+    <!-- This is the build section -->
 	<build>
 		<finalName>supermarket</finalName>
 		<plugins>
@@ -60,7 +62,8 @@
       		</plugin>			
 		</plugins>
 	</build>
-  
+
+  <!-- This is the dependencies section -->
   <dependencies>
    <dependency>
 	  <groupId>junit</groupId>
